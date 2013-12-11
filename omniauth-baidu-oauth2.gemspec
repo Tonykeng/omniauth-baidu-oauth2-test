@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'oauth2/baidu/version'
+require 'omniauth/strategies/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-baidu-oauth2"
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["junhuifoo@gmail.com"]
   spec.description   = %q{OmniAuth Oauth2 strategy for baidu.com}
   spec.summary       = %q{OmniAuth Oauth2 strategy for baidu.com}
-  spec.homepage      = "http://github.com/xiaoao/oauth2-baidu"
+  spec.homepage      = "http://github.com/Tonykeng/omniauth-baidu-oauth2"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
