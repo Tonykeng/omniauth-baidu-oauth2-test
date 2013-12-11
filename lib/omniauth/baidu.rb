@@ -1,5 +1,5 @@
-require "oauth2/strategies/version"
-require "oauth2/strategies/baidu"
+require "omniauth/strategies/version"
+require "omniauth/strategies/baidu"
 
 module Oauth2
   module Baidu
