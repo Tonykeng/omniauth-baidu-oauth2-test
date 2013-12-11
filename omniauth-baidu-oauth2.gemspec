@@ -5,7 +5,7 @@ require 'omniauth/strategies/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-baidu-oauth2"
-  spec.version       = OmniAuth::Strategies::VERSION
+  spec.version       = OmniAuth::Baidu::VERSION
   spec.authors       = ["gengda"]
   spec.email         = ["tony.keng@aliyun.com"]
   spec.description   = %q{OmniAuth Oauth2 strategy for baidu.com}
