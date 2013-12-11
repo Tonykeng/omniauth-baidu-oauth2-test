@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tony.keng@aliyun.com"]
   spec.description   = %q{OmniAuth Oauth2 strategy for baidu.com}
   spec.summary       = %q{OmniAuth Oauth2 strategy for baidu.com}
-  spec.homepage      = "http://github.com/Tonykeng/omniauth-baidu-oauth2"
+  spec.homepage      = "https://github.com/Tonykeng/omniauth-baidu-oauth2"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
