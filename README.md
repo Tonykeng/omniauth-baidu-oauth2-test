@@ -8,7 +8,7 @@ http://developer.baidu.com/wiki/index.php?title=docs/oauth
 
 Add this line to your application's Gemfile:
 
-    gem 'oauth2-baidu'
+    gem 'omniauth-baidu-oauth2'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install oauth2-baidu
+    $ gem install omniauth-baidu-oauth2
 
 ## Usage
 
@@ -26,7 +26,7 @@ Here's a quick example, adding the middleware to a Rails app in `config/initiali
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :weibo, ENV['BAIDU_KEY'], ENV['BAIDU_SECRET']
+  provider :baidu, ENV['BAIDU_KEY'], ENV['BAIDU_SECRET']
 end
 ```
 
